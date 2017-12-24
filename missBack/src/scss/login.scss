@@ -1,0 +1,34 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    #app{
+        width: 100%;
+        height: 100%;
+    }
+}
+.el-container{
+    width: 100%;
+    height: 100%;
+}
+.el-header {
+    background-color: #B3C0D1;
+    color: #333;
+    text-align: center;
+    line-height: 60px;
+    height: 10%;
+    .el-button span{
+        font-size: 18px;
+    }
+}
+
+.el-main {
+    background-color: #E9EEF3;
+    color: #333;
+    text-align: center;
+    line-height: 500px;
+    font-size: 30px;
+    height: 90%;
+}
